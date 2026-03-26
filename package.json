@@ -1,0 +1,24 @@
+{
+  "name": "mc6_projetofinalqazando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSantosReis/mc6_ProjetoFinalQazando.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DanielSantosReis/mc6_ProjetoFinalQazando/issues"
+  },
+  "homepage": "https://github.com/DanielSantosReis/mc6_ProjetoFinalQazando#readme",
+  "dependencies": {
+    "cypress": "^15.13.0"
+  }
+}
