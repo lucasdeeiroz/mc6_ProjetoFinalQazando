@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (email, password) => {
+  cy.visit('https://ingles-qazando.lovable.app/');
+  cy.contains('Entrar').click();
+  
+  cy.get('input[type="email"]').type(email);
+  // Escondemos a senha dos logs de execução do Cypress por questões de segurança ({ log: false })
+  cy.get('input[type="password"]').type(password, { log: false });
+  
+  cy.get('button[type="submit"]').click();
+});

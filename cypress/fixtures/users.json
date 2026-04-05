@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "email": "admin@teste.com",
+    "password": "Teste@123"
+  },
+  "ativo": {
+    "email": "ativo@teste.com",
+    "password": "Teste@123"
+  },
+  "inativo": {
+    "email": "inativo@teste.com",
+    "password": "Teste@123"
+  },
+  "semconfirmar": {
+    "email": "semconfirmar@teste.com",
+    "password": "Teste@123"
+  }
+}
